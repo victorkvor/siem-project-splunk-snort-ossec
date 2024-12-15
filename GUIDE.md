@@ -23,7 +23,7 @@ netinvm_run -E intc
 ```
 
 <div align="center">
-  <a href="https://github.com/vectorete/siem-project-splunk-snort-ossec/GUIDE.md">
+  <a href="https://github.com/victorkvor/siem-project-splunk-snort-ossec/GUIDE.md">
     <img src="images/netinvmmachines.png" alt="netinvm_machines" width="80%">
   </a>
 </div>
@@ -67,7 +67,7 @@ service splunk start
 
 On the web server, navigate to 10.5.2.12:8000 to view the Splunk interface.
 <div align="center">
-  <a href="https://github.com/vectorete/siem-project-splunk-snort-ossec/GUIDE.md">
+  <a href="https://github.com/victorkvor/siem-project-splunk-snort-ossec/GUIDE.md">
     <img src="images/splunkportal.png" alt="splunk_portal" width="80%">
     <br>
     <img src="images/splunkhome.png" alt="splunk_home" width="80%">
@@ -86,7 +86,7 @@ In the shell, we will enable a data receiver to receive data streams from the un
 > It can also be done in the graphical interface in the browser running Splunk service at settings>data>forwarding and receiving
 
 <div align="center">
-  <a href="https://github.com/vectorete/siem-project-splunk-snort-ossec/GUIDE.md">
+  <a href="https://github.com/victorkvor/siem-project-splunk-snort-ossec/GUIDE.md">
     <img src="images/splunkreceivinglink.png" alt="splunk_rcvlink" width="80%">
     <br>
     <img src="images/splunkreceivingport.png" alt="splunk_rcvport" width="80%">
@@ -100,7 +100,7 @@ Download the Snort app for Splunk in Apps > Find More Apps:
 > Use your Splunk account credentials, not the local one
 
 <div align="center">
-  <a href="https://github.com/vectorete/siem-project-splunk-snort-ossec/GUIDE.md">
+  <a href="https://github.com/victorkvor/siem-project-splunk-snort-ossec/GUIDE.md">
     <img src="images/splunksnortapp.png" alt="splunk_snortapp" width="80%">
   </a>
 </div>
@@ -120,7 +120,7 @@ Restart Splunk to make the app appear:
 /opt/splunk/bin/splunk restart
 ```
 <div align="center">
-  <a href="https://github.com/vectorete/siem-project-splunk-snort-ossec/GUIDE.md">
+  <a href="https://github.com/victorkvor/siem-project-splunk-snort-ossec/GUIDE.md">
     <img src="images/splunkossecapp.png" alt="splunk_ossecapp" width="80%">
   </a>
 </div>
@@ -434,7 +434,7 @@ Continue after OSSEC has been installed on all of the required PCs. Check it wit
 ```
 Each agent should be appearing there.
 <div align="center">
-  <a href="https://github.com/vectorete/siem-project-splunk-snort-ossec/GUIDE.md">
+  <a href="https://github.com/victorkvor/siem-project-splunk-snort-ossec/GUIDE.md">
     <img src="images/ossec_configured.png" alt="ossec_configured" width="80%">
   </a>
 </div>
@@ -445,7 +445,7 @@ Now you can change the active response config in OSSEC with:
 nano /var/ossecs/etc/ossec.conf
 ```
 <div align="center">
-  <a href="https://github.com/vectorete/siem-project-splunk-snort-ossec/GUIDE.md">
+  <a href="https://github.com/victorkvor/siem-project-splunk-snort-ossec/GUIDE.md">
     <img src="images/ossecactiveresponseconfig.png" alt="ossec_active_response" width="80%">
   </a>
 </div>
@@ -498,7 +498,7 @@ Check that the flag is activated with:
 ip addr show eth0
 ```
 <div align="center">
-  <a href="https://github.com/vectorete/siem-project-splunk-snort-ossec/GUIDE.md">
+  <a href="https://github.com/victorkvor/siem-project-splunk-snort-ossec/GUIDE.md">
     <img src="images/promisc.png" alt="promiscuous_mode" width="80%">
   </a>
 </div>
@@ -537,7 +537,7 @@ ip addr show eth2
 ```
 
 <div align="center">
-  <a href="https://github.com/vectorete/siem-project-splunk-snort-ossec/GUIDE.md">
+  <a href="https://github.com/victorkvor/siem-project-splunk-snort-ossec/GUIDE.md">
     <img src="images/promisc.png" alt="promiscuous_mode" width="80%">
   </a>
 </div>
@@ -562,7 +562,7 @@ ovs-vsctl --id=@p get port capture-nids2 --  --id=@m create mirror name=nids-dmz
 
 We can check the results with Tcpdump or Wireshark and generate traffic to see if the copies are being generated. In my case, I checked it pinging from `extb`(10.5.0.11) to `inta`(10.5.2.10), and I was receiving a copy when monitoring the `dmzc` interface with Wireshark:
 <div align="center">
-  <a href="https://github.com/vectorete/siem-project-splunk-snort-ossec/GUIDE.md">
+  <a href="https://github.com/victorkvor/siem-project-splunk-snort-ossec/GUIDE.md">
     <img src="images/copypacketswireshark.png" alt="packets_wireshark" width="80%">
   </a>
 </div>
@@ -713,7 +713,7 @@ source ~/.bashrc
 
 Check if everything is alright with snort -V; you should see the version:
 <div align="center">
-  <a href="https://github.com/vectorete/siem-project-splunk-snort-ossec/GUIDE.md">
+  <a href="https://github.com/victorkvor/siem-project-splunk-snort-ossec/GUIDE.md">
     <img src="images/snortversion.png" alt="snort_version" width="80%">
   </a>
 </div>
@@ -818,7 +818,7 @@ snort -c /usr/local/snort/etc/snort/snort.lua -R /usr/local/snort/etc/snort/rule
 
 We can see how alerts are received each time there is a ping in the network.
 <div align="center">
-  <a href="https://github.com/vectorete/siem-project-splunk-snort-ossec/GUIDE.md">
+  <a href="https://github.com/victorkvor/siem-project-splunk-snort-ossec/GUIDE.md">
     <img src="images/snortfirstcaptures.png" alt="snort_first_captures" width="80%">
   </a>
 </div>
@@ -1324,7 +1324,7 @@ cat /usr/share/doc/modsecurity-crs/README.Debian
 ```
 
 <div align="center">
-  <a href="https://github.com/vectorete/siem-project-splunk-snort-ossec/GUIDE.md">
+  <a href="https://github.com/victorkvor/siem-project-splunk-snort-ossec/GUIDE.md">
     <img src="images/modsecuritydocumentation.png" alt="modsecurity_doc" width="80%">
   </a>
 </div>
@@ -1338,14 +1338,14 @@ We can now make a few tests with DVWA, which allows us to try multiple vulnerabi
 - Cross Site Scripting (XSS):
 	* Reflected XSS:
 <div align="center">
-    <a href="https://github.com/vectorete/siem-project-splunk-snort-ossec/GUIDE.md">
+    <a href="https://github.com/victorkvor/siem-project-splunk-snort-ossec/GUIDE.md">
         <img src="images/modsecurityxssblock.png" alt="modsecurity_xss" width="80%">
     </a>
 </div>
 	  	modsecurityxssblock.png
 	* Stored XSS:
 <div align="center">
-    <a href="https://github.com/vectorete/siem-project-splunk-snort-ossec/GUIDE.md">
+    <a href="https://github.com/victorkvor/siem-project-splunk-snort-ossec/GUIDE.md">
         <img src="images/modsecurityxss2block.png" alt="modsecurity_xss2" width="80%">
     </a>
 </div>
@@ -1355,7 +1355,7 @@ We can now make a few tests with DVWA, which allows us to try multiple vulnerabi
 
 - Command Injection(Using "ping 10.5.1.1; cat /etc/passwd"):
 <div align="center">
-    <a href="https://github.com/vectorete/siem-project-splunk-snort-ossec/GUIDE.md">
+    <a href="https://github.com/victorkvor/siem-project-splunk-snort-ossec/GUIDE.md">
         <img src="images/modsecuritycommandinjectionblock.png" alt="command_injection" width="80%">
     </a>
 </div>
@@ -1367,7 +1367,7 @@ We can now make a few tests with DVWA, which allows us to try multiple vulnerabi
 	modsecuritysqlinjection.png
 
 <div align="center">
-    <a href="https://github.com/vectorete/siem-project-splunk-snort-ossec/GUIDE.md">
+    <a href="https://github.com/victorkvor/siem-project-splunk-snort-ossec/GUIDE.md">
         <img src="images/modsecuritysqlinjectionblock.png" alt="sql_injection" width="80%">
     </a>
 </div>
@@ -1396,7 +1396,7 @@ Execute the script and choose whichever option you want to:
 ./tmNIDS
 ```
 <div align="center">
-    <a href="https://github.com/vectorete/siem-project-splunk-snort-ossec/GUIDE.md">
+    <a href="https://github.com/victorkvor/siem-project-splunk-snort-ossec/GUIDE.md">
         <img src="images/tmnidsscript.png" alt="tmnids_script" width="80%">
     </a>
 </div>
