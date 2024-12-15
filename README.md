@@ -11,7 +11,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/vectorete/siem-project-splunk-snort-ossec">
+  <a href="https://github.com/victorkvor/siem-project-splunk-snort-ossec">
     <img src="images/logo.png" alt="Logo" width="35%">
   </a>
   <h3 align="center">SIEM Project with Splunk, Snort and Ossec</h3>
@@ -19,14 +19,14 @@
   <p align="center">
     This project aims to establish a robust security monitoring laboratory to analyze and respond to various security incidents using tools like Splunk Enterprise, Splunk Universal Forwarder, Snort, and TestmyNIDS within a controlled environment. The lab will also utilize NETinVM for its virtualization capabilities, providing a flexible and isolated testing ground.
     <br />
-    <a href="https://github.com/vectorete/siem-project-splunk-snort-ossec"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/victorkvor/siem-project-splunk-snort-ossec"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/vectorete/siem-project-splunk-snort-ossec">View Demo</a>
+    <a href="https://github.com/victorkvor/siem-project-splunk-snort-ossec">View Demo</a>
     ·
-    <a href="https://github.com/vectorete/siem-project-splunk-snort-ossec/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
+    <a href="https://github.com/victorkvor/siem-project-splunk-snort-ossec/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     ·
-    <a href="https://github.com/vectorete/siem-project-splunk-snort-ossec/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+    <a href="https://github.com/victorkvor/siem-project-splunk-snort-ossec/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
   </p>
 </div>
 
@@ -69,7 +69,7 @@
 <!-- ABOUT THE PROJECT -->
 ## 🔎 About The Project <a id="about-the-project"></a>
 <div align="center">
-  <a href="https://github.com/vectorete/siem-project-splunk-snort-ossec">
+  <a href="https://github.com/victorkvor/siem-project-splunk-snort-ossec">
     <img src="images/topology.jpg" alt="Logo" width="30%">
   </a>
 </div>
@@ -124,7 +124,7 @@ Showcases configurations and the functionality of the system with screenshots an
 NETinVM, a VMWare machine, was selected because of its user-friendly capability to create isolated environments, being perfect for testing and educational purposes, which also doesn't affect actual systems. Being able to host multiple virtual machines allows extensive network simulations, which is essential for this laboratory arrangement, notably employing a 3-legged DMZ network design.
   - **Network Topology**:
 <div align="center">
-    <a href="https://github.com/vectorete/siem-project-splunk-snort-ossec">
+    <a href="https://github.com/victorkvor/siem-project-splunk-snort-ossec">
       <img src="images/net_topology.png" alt="netinvm_topology" width="60%">
     </a>
 </div>
@@ -148,7 +148,7 @@ NETinVM, a VMWare machine, was selected because of its user-friendly capability 
 
 ### 🖧 Topology <a id="topology"></a>
 <div align="center">
-  <a href="https://github.com/vectorete/siem-project-splunk-snort-ossec">
+  <a href="https://github.com/victorkvor/siem-project-splunk-snort-ossec">
     <img src="images/topology.png" alt="Logo" width="30%">
   </a>
 </div>
@@ -323,21 +323,21 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ## ☎️ Contact <a id="contact"></a>
 Victor Kravchuk Vorkevych - victorkravchuk19@gmail.com
 
-Project Link: [https://github.com/vectorete/siem-project-splunk-snort-ossec](https://github.com/vectorete/siem-project-splunk-snort-ossec)
+Project Link: [https://github.com/victorkvor/siem-project-splunk-snort-ossec](https://github.com/victorkvor/siem-project-splunk-snort-ossec)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/vectorete/siem-project-splunk-snort-ossec.svg?style=for-the-badge
-[contributors-url]: https://github.com/vectorete/siem-project-splunk-snort-ossec/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/vectorete/siem-project-splunk-snort-ossec.svg?style=for-the-badge
-[forks-url]: https://github.com/vectorete/siem-project-splunk-snort-ossec/network/members
-[stars-shield]: https://img.shields.io/github/stars/vectorete/siem-project-splunk-snort-ossec.svg?style=for-the-badge
-[stars-url]: https://github.com/vectorete/siem-project-splunk-snort-ossec/stargazers
-[issues-shield]: https://img.shields.io/github/issues/vectorete/siem-project-splunk-snort-ossec.svg?style=for-the-badge
-[issues-url]: https://github.com/vectorete/siem-project-splunk-snort-ossec/issues
-[license-shield]: https://img.shields.io/github/license/vectorete/siem-project-splunk-snort-ossec.svg?style=for-the-badge
-[license-url]: https://github.com/vectorete/siem-project-splunk-snort-ossec/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/victorkvor/siem-project-splunk-snort-ossec.svg?style=for-the-badge
+[contributors-url]: https://github.com/victorkvor/siem-project-splunk-snort-ossec/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/victorkvor/siem-project-splunk-snort-ossec.svg?style=for-the-badge
+[forks-url]: https://github.com/victorkvor/siem-project-splunk-snort-ossec/network/members
+[stars-shield]: https://img.shields.io/github/stars/victorkvor/siem-project-splunk-snort-ossec.svg?style=for-the-badge
+[stars-url]: https://github.com/victorkvor/siem-project-splunk-snort-ossec/stargazers
+[issues-shield]: https://img.shields.io/github/issues/victorkvor/siem-project-splunk-snort-ossec.svg?style=for-the-badge
+[issues-url]: https://github.com/victorkvor/siem-project-splunk-snort-ossec/issues
+[license-shield]: https://img.shields.io/github/license/victorkvor/siem-project-splunk-snort-ossec.svg?style=for-the-badge
+[license-url]: https://github.com/victorkvor/siem-project-splunk-snort-ossec/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/victorkvor
